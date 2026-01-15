@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(7, 92, 56);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.maincontainer{
+    display: inline;
+    background-color: rgb(22, 158, 101);
+    padding:10px;
+    margin: 0px;
+    width: 30%;
+    height: 85vh;
+    border-radius: 2%;
+    border: black 2px ;
+    box-shadow: 2px 2px 2px rgba(80, 80, 80, 0.555);
+}
+.maincontainer h3{
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+.inputHeader{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.inputHeader button{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(22, 158, 101);
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+}
+.inputHeader input{
+    width: 75%;
+    height: 5vh;
+    background-color: rgba(240, 248, 255, 0.24);
+    border: none;
+    border-radius: 5px;
+    padding:5px;
+    font-size: medium;
+}
+.inputHeader input::placeholder{
+    color: rgba(255, 255, 255, 0.712);
+    font-size:small;
+}
+#itemsContainer{
+    height: 60vh;
+    padding:10px;
+    background-color: rgba(248, 248, 248, 0.603);
+    border-radius: 5px;
+    overflow-y:auto;
+    overflow-x: hidden;
+
+}
+#itemsContainer li{
+    background-color: #f0eeeeb2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+    height: 5.5vh;
+    width:98%;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#itemsContainer button{
+    margin-left: auto;
+    background-color: rgb(182, 15, 15);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+}
+.madewithlove{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+}
+
+@media (max-width: 480px) {
+  .maincontainer {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .maincontainer {
+    width: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  .maincontainer {
+    width: 80%;
+  }
+} 
